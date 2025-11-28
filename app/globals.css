@@ -1,0 +1,33 @@
+:root {
+  --font-primary: ui-sans-serif, system-ui;
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #c8a24f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+header {
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  padding: 20px 40px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+}
